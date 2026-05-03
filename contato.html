@@ -7,8 +7,31 @@
          <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-       <h1>Contato</h1>
-       <p class="p-blue">Beijos! Me liga! <a href="tel:+5585999125003">(85) 99912-5003</a></p>
-       <a href="./index.html">⏪Voltar para pagina inicial</a>
+      <form>
+        <!-- primeira caixa -->
+        <div class="primary-box">
+            <div>
+                <label>Nome</label>
+                <input type="text" placeholder="Seu nome"/>
+            </div>
+            <div>
+                <label>Telefone</label>
+                <input type="text" placeholder="(xx) xxxxx-xxxx" />
+            </div>
+        </div>
+        </div>
+        <!-- segunda caixa -->
+        <div>
+            <label>Email</label>
+            <input type="email" placeholder="contato@email.com">
+        </div>
+        <!-- terceira caixa -->
+        <div>
+            <label>Mensagem</label>
+            <textarea placeholder="O que você precisa?"></textarea>
+        </div>
+        <!-- botao -->
+        <button>enviar mensagem</button>
+      </form>
     </body>
 </html>
